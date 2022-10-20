@@ -3,6 +3,8 @@
 The idea is creating wordcloud for YouTube videos, and then Medium articles as well. I copied the idea from [this guy](https://www.param.me/videocloud/) btw.
 I used word_cloud from PyPi, lots of thanks to [amueller](https://github.com/amueller/word_cloud) for [his effort](https://peekaboo-vision.blogspot.com/2012/11/a-wordcloud-in-python.html) on this project.
 
+Update: It's been deployed to Heroku and most probably will be available till the Nov. 28th. Anyways. [On Heroku](https://yt-cloud.herokuapp.com)
+
 ## More
 
 I believe I first learned about wordclouds in 2019 when I noticed my friends utilizing a tool to build them on Twitter. At the time, I thought it was a fun and unique way to see what you were exhibiting on social media. Because I was curious and insecure (government control) at the same time, I did not trust those free services out there that built *Word-Clouds* for Iranian Twitter members because it was easy to store those tweets in a single database and use the metadata inside them, it was like telling someone you don't know your entire life in 3200 tweets, *at least for me*. So I learnt the hard way and then made these clouds for a bunch of my pals who were having the same problem. I also assisted a friend of mine in developing a better version of this nonsense.
@@ -16,9 +18,9 @@ A word cloud, on the other hand, is a semi-good or not-bad resource for research
 
 It allows me to quickly grasp what the video is about; for example, if I see a video of **Milton Friedman** with a large *poverty* in it, I know that this particular video is just some idiot student asking stupid questions.
 
-![](img/poverty.png) A few decades ago, a student inquired about the state's role to combat poverty. This world is fucked. [Watch the video.](https://www.youtube.com/watch?v=Rls8H6MktrA)
+![](img/poverty.png)<br/>A few decades ago, a student inquired about the state's role to combat poverty. This world is fucked. [Watch the video.](https://www.youtube.com/watch?v=Rls8H6MktrA)
 
-![](img/mahsa.jpg) Take a look at this cloud; it's full with words like *Mahsa Amini, for, all, ha (pluralizes Persian words) and even \uc*, indicating that the data isn't nice or clean because the guy didn't know what stopwords are. Whatever, he claims to be a PhD, and I trust him. (: Like that idiotic student in Friedman's video.
+![](img/mahsa.jpg) <br/>Take a look at this cloud; it's full with words like *Mahsa Amini, for, all, ha (pluralizes Persian words) and even \uc*, indicating that the data isn't nice or clean because the guy didn't know what stopwords are. Whatever, he claims to be a PhD, and I trust him. (: Like that idiotic student in Friedman's video.
 
 ## To-Dos
 + [X] Main Objective: Creating Wordclouds (:
